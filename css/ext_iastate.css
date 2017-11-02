@@ -1,0 +1,142 @@
+/* Reduce size of yellow bar */
+.isu-site-navbar {
+	border-bottom: 4px solid #f1be48;
+}
+
+/* Change footer background color and text color */
+.isu-footer {
+	color: #d3d3d3;
+	background: #333;
+}
+
+/* Change footer link color */
+.isu-footer a {
+	color: #d3d3d3;
+}
+
+/* Change footer associates menu link color */
+.isu-associates-menu a {
+	color: #d3d3d3;
+	text-decoration: underline;
+}
+
+/* Change footer link hover color and add text decoration */
+.isu-footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* Change social media menu icon color, size */
+.isu-social-menu a:before {
+	color: #fff;
+	font-size: 24px;
+}
+
+/* Change font color of social media menu text */
+.isu-social-menu a {
+	color: #d3d3d3;
+}
+
+/* Add text decoration to legal footer menu */
+.isu-legal-menu a:hover {
+	text-decoration: underline;
+}
+
+/* Reduce size of h1 */
+.h1, h1 {
+	font-size: 1.75rem;
+}
+
+/* Reduce size of h2 */
+.h2, h2 {
+	font-size: 1.5rem;
+}
+
+/* Reduce size of h3 */
+.h3, h3 {
+	font-size: 1.25rem;
+}
+
+/* Reduce size of h4 */
+.h4, h4 {
+	font-size: 1rem;
+}
+
+/* Remove h5 and h6 */
+
+/* Main Menu link changes */
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 10px 12px;
+	letter-spacing: .5px;
+	border-bottom: 3px solid transparent;
+	transition: all 0.1s ease;
+}
+
+/* Main Menu Link Hover Changes */
+.isu-nav-link: hover {
+	background: #eeeeee;
+	border-bottom: 3px solid #bbb;
+}
+
+/* Change blockquote styling - double check before and after styling*/
+blockquote {
+	margin-bottom: 0rem;
+	border-left: 0rem solid transparent;
+}
+
+blockquote p {
+	padding: 0 50px;
+}
+
+blockquote:before {
+	color: #f1be48;
+	content: "\201C";
+	font-size: 8rem;
+	position: absolute;
+	left: 5px;
+	line-height: 0.1em;
+	padding-top: 35px;
+}
+
+blockquote:after {
+	color: #f1be48;
+	content: "\201D";
+	font-size: 8rem;
+	position: absolute;
+	right: 0px;
+	line-height: 0.1em;
+}
+
+/* Site Name Size Change */
+.isu-wordmark-sitename {
+	font-size: 22px;
+}
+
+/* Change Alert Color */
+.alert-success {
+	color: #000;
+	background-color: #7a99ac;
+	border-color: #7a99ac;
+}
+
+.alert-warning {
+	color: #000;
+	background-color: #F1BE48;
+	border-color: #F1BE48;
+}
+
+.alert-danger {
+	color: #fff;
+	background-color: #cc0000;
+	border-color: #cc0000;
+}
+
+/* Change Authored on information display */
+.isu-user ~ div > .isu-submitted-by_name, .isu-user ~ div > .isu-submitted-by_date {
+	display: inline-block;
+}
+
+.isu-user ~ div > .isu-submitted-by_name {
+	font-size: 0.85rem;
+}
+	
