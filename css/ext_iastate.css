@@ -126,25 +126,6 @@ blockquote:after {
 	line-height: 24px;
 }
 
-/* Change Alert Color */
-.alert-success {
-	color: #000;
-	background-color: #7a99ac;
-	border-color: #7a99ac;
-}
-
-.alert-warning {
-	color: #000;
-	background-color: #F1BE48;
-	border-color: #F1BE48;
-}
-
-.alert-danger {
-	color: #fff;
-	background-color: #cc0000;
-	border-color: #cc0000;
-}
-
 /* Change Authored on information display */
 .isu-user ~ div > .isu-submitted-by_name, .isu-user ~ div > .isu-submitted-by_date {
 	display: inline-block;
