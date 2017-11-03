@@ -3,6 +3,12 @@
 	border-bottom: 4px solid #f1be48;
 }
 
+/* Reduce space on top and bottom of wordmark and sitename */
+.isu-row-site-navbar {
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+
 /* Change footer background color and text color */
 .isu-footer {
 	color: #d3d3d3;
