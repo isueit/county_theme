@@ -9,6 +9,11 @@
 	margin-bottom: -15px;
 }
 
+/* Place search at top of red bar */
+.isu-col-header-second_has-search {
+	margin-top: -60px;
+}
+
 /* Change footer background color and text color */
 .isu-footer {
 	color: #d3d3d3;
