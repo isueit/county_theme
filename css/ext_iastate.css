@@ -53,6 +53,12 @@
 	color: #d3d3d3;
 }
 
+/* Adjust legal menu links */
+.isu-legal-menu a {
+	display: inline-block;
+	text-decoration: underline;
+}
+
 /* Add text decoration to legal footer menu */
 .isu-legal-menu a:hover {
 	text-decoration: underline;
