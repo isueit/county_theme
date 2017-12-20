@@ -28,6 +28,7 @@
 /* Change size of stacked wordmark in footer */
 .isu-footer-logo {
 	max-width: 250px;
+	margin-top: -15px;
 }
 
 /* Change footer associates menu link color */
