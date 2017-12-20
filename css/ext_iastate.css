@@ -178,4 +178,9 @@ blockquote:after {
 .isu-user ~ div > .isu-submitted-by_name {
 	font-size: 0.85rem;
 }
+
+/* Search bar size changes */
+.isu-region_header-second .isu-search__search-field.form-control {
+	height: 2.15rem;
+}
 	
