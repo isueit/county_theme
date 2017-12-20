@@ -65,9 +65,10 @@
 	font-size: 24px;
 }
 
-/* Change font color of social media menu text */
+/* Change font color and size of social media menu text */
 .isu-social-menu a {
 	color: #d3d3d3;
+	font-size: 14px;
 }
 
 /* Adjust legal menu links */
