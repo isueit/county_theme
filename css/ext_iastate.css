@@ -17,6 +17,8 @@
 /* Add hover effect to main menu links */
 .isu-nav-link:hover {
 	border-bottom: 3px solid #bbb !important;
+	background: #ddd;
+	font-weight: bold;
 }
 
 /* Change footer background color and text color */
