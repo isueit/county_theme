@@ -14,6 +14,11 @@
 	margin-top: -60px;
 }
 
+/* Add hover effect to main menu links */
+.isu-nav-link:hover {
+	border-bottom: 3px solid #bbb !important;
+}
+
 /* Change footer background color and text color */
 .isu-footer {
 	color: #d3d3d3;
