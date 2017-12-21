@@ -183,4 +183,8 @@ blockquote:after {
 .isu-region_header-second .isu-search__search-field.form-control {
 	height: 2.15rem;
 }
+
+.isu-site-navbar .isu-search__search-btn {
+	height: 2.15rem;
+}
 	
