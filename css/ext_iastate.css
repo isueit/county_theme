@@ -200,4 +200,9 @@ blockquote:after {
 .isu-site-navbar .isu-search__search-btn {
 	height: 2.15rem;
 }
-	
+
+@media (min-width: 992px) {
+  .dropdown.is-hoverable:hover > .dropdown-menu {
+    display: block;
+  }
+}	
