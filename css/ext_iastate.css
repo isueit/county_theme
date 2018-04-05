@@ -202,11 +202,12 @@ blockquote:after {
 }
 
 @media (min-width: 992px) {
-  .dropdown.is-hoverable:hover > .dropdown-menu {
-    display: block;
-  }
+	.dropdown.is-hoverable:hover > .dropdown-menu {
+    	display: block;
+	}
   
 	.isu-wordmark-logo {
 		max-width: 365px;
+		margin-left: 2px;
 	}
 }	
