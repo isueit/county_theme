@@ -233,3 +233,17 @@ blockquote:after {
 		max-width: 23%;
 	}
 }	
+
+ @media screen and (max-width : 768px) {
+ 	.isu-wordmark-logo {
+ 		margin-top: 1.5rem;
+ 	}
+ 	
+ 	.isu-wordmark-sitename {
+ 		padding-left: 0px;
+ 		margin-left: -39px;
+ 		padding-bottom: 16px;
+ 		font-size: 20px;
+ 	}
+ 	
+ }
