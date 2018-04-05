@@ -39,6 +39,11 @@
 	margin-left: 11px;
 }
 
+/* Sidebar */
+.isu-page-column {
+	margin-left: 11px;
+}
+
 /* Change footer background color and text color */
 .isu-footer {
 	color: #d3d3d3;
@@ -222,5 +227,9 @@ blockquote:after {
 	.isu-wordmark-logo {
 		max-width: 365px;
 		margin-left: 2px;
+	}
+	
+	.col-lg-3 {
+		max-width: 23%;
 	}
 }	
