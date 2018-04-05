@@ -19,10 +19,14 @@
 	border-bottom: 3px solid #bbb !important;
 }
 
+/* Dropdown Menu */
+.isu-dropdown-menu {
+	background: #fff;
+}
+
 .isu-dropdown-item a:focus, .isu-dropdown-item a:hover, .isu-dropdown-item a.active, .isu-dropdown-item a:active {
-	background: #eee;
-	border-bottom: 3px solid #bbb;
-	font-weight: bold;
+	background: transparent;
+	color: #cc0000;
 }
 
 /* Breadcrumb Styling */
