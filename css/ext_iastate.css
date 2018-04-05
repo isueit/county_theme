@@ -205,4 +205,8 @@ blockquote:after {
   .dropdown.is-hoverable:hover > .dropdown-menu {
     display: block;
   }
+  
+	.isu-wordmark-logo {
+		max-width: 365px;
+	}
 }	
