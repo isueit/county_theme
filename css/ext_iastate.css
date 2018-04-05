@@ -238,7 +238,7 @@ blockquote:after {
 	}
 }	
 
- @media screen and (max-width : 768px) {
+ @media screen and (max-width : 800px) {
  	.isu-wordmark-logo {
  		margin-top: 1.5rem;
  	}
