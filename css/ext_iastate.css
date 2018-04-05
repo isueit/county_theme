@@ -32,6 +32,11 @@
 	margin-left: 11px;
 }
 
+/* Move Content Area */
+.isu-region_content {
+	margin-left: 11px;
+}
+
 /* Change footer background color and text color */
 .isu-footer {
 	color: #d3d3d3;
