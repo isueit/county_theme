@@ -97,35 +97,6 @@
 	font-size: 14px;
 }
 
-ul.isu-social-menu li {
-	float: left;
-}
-
-/* REMOVE THIS WHEN YOU FIX SOCIAL MEDIA MENU */
-.svg-inline--fa.fa-twitter-square {
-	display: none;
-}
-
-.svg-inline--fa.fa-facebook-square {
-	display: none;
-}
-
-.svg-inline--fa.fa-instagram {
-	display: none;
-}
-
-.svg-inline--fa.fa-linkedin {
-	display: none;
-}
-
-.svg-inline--fa.fa-youtube {
-	display: none;
-}
-
-.svg-inline--fa.fa-pinterest-square {
-	display: none;
-}
-
 /* Adjust legal menu links */
 .isu-legal-menu a {
 	display: inline-block;
