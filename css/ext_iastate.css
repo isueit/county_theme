@@ -95,6 +95,12 @@
 .isu-social-menu a {
 	color: #d3d3d3;
 	font-size: 14px;
+	float: left;
+}
+
+/* Remove SVG fontawesome icon */
+svg:not(:root).svg-inline--fa {
+	display: none;
 }
 
 /* Adjust legal menu links */
