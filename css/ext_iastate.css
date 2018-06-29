@@ -85,6 +85,11 @@
 	font-size: 14px;
 }
 
+/* Styled EO social media icons */
+.isu-social-menu {
+	padding-left: 34px;
+}
+
 /* Change social media menu icon color, size */
 .isu-social-menu a:before {
 	color: #fff;
