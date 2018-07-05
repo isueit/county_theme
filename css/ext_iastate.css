@@ -16,7 +16,7 @@ html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
 
 /* Place search at top of red bar */
 .isu-col-header-second_has-search {
-	margin-top: -60px;
+	margin-top: -28px;
 }
 
 /* Add hover effect to main menu links */
