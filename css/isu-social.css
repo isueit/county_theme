@@ -104,10 +104,10 @@
 .isu-social-menu a[href*='staffdir']:hover:before {
   color: #cc0000
 }
-.isu-social-menu a[href*='maps.google.com']:before {
+.isu-social-menu a[href*='google.com']:before {
   content: "\f041"
 }
-.isu-social-menu a[href*='maps.google.com']:hover:before {
+.isu-social-menu a[href*='google.com']:hover:before {
   width 30px;
   height 30px;
   border-radius 50% 50% 50% 0;
