@@ -64,6 +64,37 @@ html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
 	display: inline-block;
 }
 
+/* Button Styles */
+.btn-danger {
+	background-color: #cc0000;
+	border-color: #cc0000;
+}
+
+.btn-primary {
+	background-color: #006BA6;
+	border-color: #006BA6;
+}
+
+.btn-secondary {
+	background-color: #707372;
+	border-color: #707372;
+}
+
+.btn-outline-danger {
+	color: #cc0000;
+	border-color: #cc0000;
+}
+
+.btn-outline-primary {
+	color: #006BA6;
+	border-color: #006BA6;
+}
+
+.btn-outline-secondary {
+	color: #707372;
+	border-color: #707372;
+}
+
 /* Change footer background color and text color */
 .isu-footer {
 	color: #d3d3d3;
