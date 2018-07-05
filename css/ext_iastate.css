@@ -70,7 +70,37 @@ html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
 	border-color: #cc0000;
 }
 
+.btn-danger:hover {
+	background-color: #7c2529;
+	border-color: #7c2529;
+}	
+
+.btn-outline-danger {
+	color: #cc0000;
+	border-color: #cc0000;
+}
+
+.btn-outline-danger:hover {
+	background-color: #cc0000;
+	border-color: #cc0000;
+}
+
 .btn-primary {
+	background-color: #006BA6;
+	border-color: #006BA6;
+}
+
+.btn-primary:hover {
+	background-color: #003D4C;
+	border-color: #003D4C;
+}
+
+.btn-outline-primary {
+	color: #006BA6;
+	border-color: #006BA6;
+}
+
+.btn-outline-primary:hover {
 	background-color: #006BA6;
 	border-color: #006BA6;
 }
@@ -80,18 +110,18 @@ html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
 	border-color: #707372;
 }
 
-.btn-outline-danger {
-	color: #cc0000;
-	border-color: #cc0000;
-}
-
-.btn-outline-primary {
-	color: #006BA6;
-	border-color: #006BA6;
+.btn-secondary:hover {
+	background-color: #6E6259;
+	border-color: #6E6259;
 }
 
 .btn-outline-secondary {
 	color: #707372;
+	border-color: #707372;
+}
+
+.btn-outline-secondary:hover {
+	background-color: #707372;
 	border-color: #707372;
 }
 
