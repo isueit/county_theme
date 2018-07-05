@@ -19,6 +19,12 @@ html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
 	margin-top: -28px;
 }
 
+/* Top Social Media Menu Styles */
+#block-countysocialmedia-menu .isu-social-menu a {
+	float: right;
+	margin-top: -11px;
+}
+
 /* Add hover effect to main menu links */
 .isu-nav-link:hover {
 	border-bottom: 3px solid #bbb !important;
