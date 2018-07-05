@@ -1,3 +1,8 @@
+/* Fix body height */
+body {
+	height: 50%;
+}
+
 /* Reduce size of yellow bar */
 .isu-site-navbar {
 	border-bottom: 4px solid #f1be48;
@@ -163,6 +168,13 @@ svg:not(:root).svg-inline--fa {
 .h5 {
 	font-size: 14px;
 	font-weight: bold;
+}
+
+/* Block Title */
+h2.isu-block-title.h4 {
+	margin-bottom: 1rem;
+	line-height: 1.25;
+	font-size: 1.5rem;
 }
 
 /* Remove h5 and h6 */
