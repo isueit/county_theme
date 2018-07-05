@@ -22,6 +22,17 @@
         {% if page.footer_first %}
           {{ page.footer_first }}
         {% endif %}
+        
+        {% if iastate_footer_logo_path %}
+          {% if iastate_footer_logo_url %}
+            <a href="{{ iastate_footer_logo_url }}">
+          {% endif %}
+              <img class="isu-footer-logo" src="{{ base_path }}/{{ iastate_footer_logo_path }}" class="wordmark-isu" alt="Iowa State University">
+          {% if iastate_footer_logo_url %}
+            </a>
+          {% endif %}
+        {% endif %}
+
 
         <a href="https://www.extension.iastate.edu">
           <img class="isu-footer-logo" src="./themes/extension_theme/images/wordmark-stacked.svg" class="wordmark-isu" alt="Iowa State University Extension and Outreach">
