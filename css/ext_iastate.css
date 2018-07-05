@@ -20,7 +20,7 @@ html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
 }
 
 /* Top Social Media Menu Styles */
-#block-countysocialmedia-menu .isu-social-menu a {
+#block-countysocialmedia .isu-social-menu a {
 	float: right;
 	margin-top: -11px;
 }
