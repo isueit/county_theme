@@ -4,7 +4,7 @@
 
 /* Fix body height */
 html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
-	height: 46%;
+	height: 45%;
 }
 
 /* Reduce size of h1 */
