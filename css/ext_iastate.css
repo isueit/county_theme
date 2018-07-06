@@ -1,7 +1,41 @@
+/* --------------------------------------  */
+/* ## Typography
+/* --------------------------------------  */
+
 /* Fix body height */
 html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
 	height: 46%;
 }
+
+/* Reduce size of h1 */
+.h1, h1 {
+	font-size: 1.75rem;
+}
+
+/* Reduce size of h2 */
+.h2, h2 {
+	font-size: 1.5rem;
+}
+
+/* Reduce size of h3 */
+.h3, h3 {
+	font-size: 1.25rem;
+}
+
+/* Reduce size of h4 */
+.h4, h4 {
+	font-size: 1rem;
+}
+
+/* Reduce size of h5 */
+.h5 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* --------------------------------------  */
+/* ## Red Bar
+/* --------------------------------------  */
 
 /* Reduce size of yellow bar */
 .isu-site-navbar {
@@ -19,6 +53,19 @@ html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
 	float: right;
 	margin-top: -11px;
 }
+
+/* Site Name Size Change */
+.isu-wordmark-sitename {
+	font-size: 22px;
+	padding-left: 11px;
+	font-weight: 700;
+	line-height: 24px;
+	padding-top: 13px;
+}
+
+/* --------------------------------------  */
+/* ## Main Menu
+/* --------------------------------------  */
 
 /* Add hover effect to main menu links */
 .isu-nav-link:hover {
@@ -39,14 +86,37 @@ html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
 	box-shadow: 0px 2px 3px 0px #aaa;
 }
 
-/* Breadcrumb Styling */
+/* Main Menu link changes */
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 10px 12px;
+	letter-spacing: .5px;
+	border-bottom: 3px solid transparent;
+	transition: all 0.1s ease;
+}
+
+/* Main Menu Link Hover Changes */
+.isu-nav-link: hover {
+	background: #eeeeee;
+	border-bottom: 3px solid #bbb;
+}
+
+/* --------------------------------------  */
+/* ## Content Area
+/* --------------------------------------  */
+
+/* Breadcrumb Styling
 .isu-breadcrumb {
 	margin-left: 11px;
 }
+*/
 
-/* Move Content Area */
-.isu-region_content {
-	margin-left: 11px;
+/* Change Authored on information display */
+.isu-user ~ div > .isu-submitted-by_name, .isu-user ~ div > .isu-submitted-by_date {
+	display: inline-block;
+}
+
+.isu-user ~ div > .isu-submitted-by_name {
+	font-size: 0.85rem;
 }
 
 /* Sidebar */
@@ -119,6 +189,49 @@ html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
 	background-color: #707372;
 	border-color: #707372;
 }
+
+/* Change blockquote styling - double check before and after styling*/
+blockquote {
+	margin-bottom: 0rem;
+	border-left: 0rem solid transparent;
+}
+
+blockquote p {
+	padding: 0 50px;
+}
+
+blockquote:before {
+	color: #f1be48;
+	content: "\201C";
+	font-size: 8rem;
+	position: absolute;
+	left: 5px;
+	line-height: 0.1em;
+	padding-top: 35px;
+}
+
+blockquote:after {
+	color: #f1be48;
+	content: "\201D";
+	font-size: 8rem;
+	position: absolute;
+	right: 0px;
+	line-height: 0.1em;
+}
+
+/* Block Title */
+h2.isu-block-title.h4 {
+	margin-bottom: 1rem;
+	line-height: 1.25;
+	font-size: 1.5rem;
+}
+
+/* Remove h5 and h6 */
+
+/* --------------------------------------  */
+/* ## Footer
+/* --------------------------------------  */
+
 
 /* Change footer background color and text color */
 .isu-footer {
@@ -211,110 +324,9 @@ svg:not(:root).svg-inline--fa {
 	font-size: 12px;
 }
 
-/* Reduce size of h1 */
-.h1, h1 {
-	font-size: 1.75rem;
-}
-
-/* Reduce size of h2 */
-.h2, h2 {
-	font-size: 1.5rem;
-}
-
-/* Reduce size of h3 */
-.h3, h3 {
-	font-size: 1.25rem;
-}
-
-/* Reduce size of h4 */
-.h4, h4 {
-	font-size: 1rem;
-}
-
-/* Reduce size of h5 */
-.h5 {
-	font-size: 14px;
-	font-weight: bold;
-}
-
-/* Block Title */
-h2.isu-block-title.h4 {
-	margin-bottom: 1rem;
-	line-height: 1.25;
-	font-size: 1.5rem;
-}
-
-/* Remove h5 and h6 */
-
-/* Main Menu link changes */
-.navbar-expand-lg .navbar-nav .nav-link {
-	padding: 10px 12px;
-	letter-spacing: .5px;
-	border-bottom: 3px solid transparent;
-	transition: all 0.1s ease;
-}
-
-/* Main Menu Link Hover Changes */
-.isu-nav-link: hover {
-	background: #eeeeee;
-	border-bottom: 3px solid #bbb;
-}
-
-/* Change blockquote styling - double check before and after styling*/
-blockquote {
-	margin-bottom: 0rem;
-	border-left: 0rem solid transparent;
-}
-
-blockquote p {
-	padding: 0 50px;
-}
-
-blockquote:before {
-	color: #f1be48;
-	content: "\201C";
-	font-size: 8rem;
-	position: absolute;
-	left: 5px;
-	line-height: 0.1em;
-	padding-top: 35px;
-}
-
-blockquote:after {
-	color: #f1be48;
-	content: "\201D";
-	font-size: 8rem;
-	position: absolute;
-	right: 0px;
-	line-height: 0.1em;
-}
-
-/* Site Name Size Change */
-.isu-wordmark-sitename {
-	font-size: 22px;
-	padding-left: 11px;
-	font-weight: 700;
-	line-height: 24px;
-	padding-top: 13px;
-}
-
-/* Change Authored on information display */
-.isu-user ~ div > .isu-submitted-by_name, .isu-user ~ div > .isu-submitted-by_date {
-	display: inline-block;
-}
-
-.isu-user ~ div > .isu-submitted-by_name {
-	font-size: 0.85rem;
-}
-
-/* Search bar size changes */
-.isu-region_header-second .isu-search__search-field.form-control {
-	height: 2.15rem;
-}
-
-.isu-site-navbar .isu-search__search-btn {
-	height: 2.15rem;
-}
+/* --------------------------------------  */
+/* ## Responsive
+/* --------------------------------------  */
 
 @media (min-width: 992px) {
 	.dropdown.is-hoverable:hover > .dropdown-menu {
