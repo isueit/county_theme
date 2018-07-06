@@ -304,6 +304,10 @@ svg:not(:root).svg-inline--fa {
 	display: none;
 }
 
+.fa {
+	display: none;
+}
+
 /* Adjust legal menu links */
 .isu-legal-menu a {
 	display: inline-block;
