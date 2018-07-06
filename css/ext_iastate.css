@@ -1,6 +1,6 @@
 /* Fix body height */
 html, body, .dialog-off-canvas-main-canvas, .isu-page-wrap {
-	height: 47%;
+	height: 46%;
 }
 
 /* Reduce size of yellow bar */
