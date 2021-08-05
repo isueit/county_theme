@@ -1,57 +1,80 @@
-/* --------------------------------------  */
-/* ## Red Bar
-/* --------------------------------------  */
+/* -------------------------------------- */
+/* ## Homepage
+/* ------------------------------------- */
 
-/* Top Social Media Menu Styles */
-#block-countysocialmedia .isu-social-menu a {
-	float: right;
-	margin-top: -11px;
+/* Upcoming Events */
+.program_offering_blocks.isu-block-front h2 {
+	color: #ffffff;
 }
 
-/* Remove h5 and h6 */
-
-/* --------------------------------------  */
-/* ## Footer
-/* --------------------------------------  */
-
-/* Styled EO social media icons */
-.isu-social-menu {
-	padding-left: 34px;
+.isu-block-front h2.isu-block-title.h4 {
+	margin-bottom: .25rem;
 }
 
-/* Styled static social media icons */
-.isu-social-menu-static {
-  list-style-type: none;
-  padding: 0;
-}
-.isu-social-menu-static a {
-  display: inline-block;
-  color: #676767;
-  text-decoration: none;
+ul.county_events {
+        list-style-type: none;
+        padding-left: 0rem;
+	padding-bottom: 25px;
 }
 
-/* Remove SVG fontawesome icon */
-svg:not(:root).svg-inline--fa {
-	display: none;
+p.event_longDate {
+        display: none;
 }
 
-.fa {
-	display: none;
+li.event {
+        padding: 10px 0px;
+        clear: both;
 }
 
-/* --------------------------------------  */
-/* ## Responsive
-/* --------------------------------------  */
+.isu-block-front li.event {
+	color: #ffffff;
+}
 
-@media (min-width: 992px) {
+.isu-block-front div.event_title a { 
+	color: #ffffff;
+}
 
+a.county_calendar {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	border-radius: 3px;
+	transition: background 0.2s ease;
+	padding: 7px;
+	white-space: break-spaces;
+	text-decoration: none;
+}
 
-@media screen and (max-width : 992px) {
+a.event_title:hover, a.county_calendar:hover {
+        text-decoration: underline;
+}
+.isu-block-front span.event_day {
+	color: #ffffff;
+}
 
- 	
- }
+.isu-block-front span.event_month {
+	color: #ffffff;
+}
 
-@media screen and (max-width : 768px) {
+.isu-block-front div.event_date {
+	margin: 0 5px 8px 0;
+}
 
- 	
- }
+.isu-block-front ul.program_offering_blocks {
+	padding-bottom: 10px;
+}
+
+a.events_show_more.btn-outline-white {
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	font-weight: 700;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: background 0.2s ease;
+	padding: 7px;
+	white-space: break-spaces;
+}
+
+a.events_show_more.btn-outline-white:hover {
+	color: #cc0000;
+	background: #ffffff;
+}
