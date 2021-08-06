@@ -1,0 +1,5 @@
+global-css:
+  css:
+    theme:
+      css/county_iastate.css: {}
+
