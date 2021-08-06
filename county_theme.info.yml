@@ -1,0 +1,22 @@
+name: IASTATE Extension County Theme
+description: Drupal 8 sub-theme for Iowa State University Extension and Outreach County websites
+type: theme
+core_version_requirement: ^8 || ^9
+base theme: iastate_theme
+libraries: 
+  - county_theme/global-css
+regions:
+  header_first: "Header First"
+  header_second: "Header Second"
+  menu_navbar: 'Menu Navbar'
+  post_nav: 'Post Nav'
+  breadcrumbs: 'Breadcrumbs'
+  content: 'Page Content'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  footer_fourth: 'Footer Fourth'
+  sign_off: 'Sign Off'
+logo: images/isueo-wordmark.svg
