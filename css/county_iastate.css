@@ -78,3 +78,18 @@ a.events_show_more.btn-outline-white:hover {
 	color: #cc0000;
 	background: #ffffff;
 }
+
+/* Local News */
+.news-attachment table {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+.news-attachment .table tbody {
+	border-bottom: 0px solid transparent;
+}
+
+.news-attachment .table td, .table th {
+	border-top: 0px solid transparent;
+}

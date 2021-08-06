@@ -1,5 +1,0 @@
-global-css:
-  css:
-    theme:
-      css/county_iastate.css: {}
-      css/isu-social.css: {}
