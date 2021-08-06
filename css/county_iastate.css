@@ -93,3 +93,7 @@ a.events_show_more.btn-outline-white:hover {
 .news-attachment .table td, .table th {
 	border-top: 0px solid transparent;
 }
+
+.news-attachment img {
+	padding-bottom: 10px;
+}
