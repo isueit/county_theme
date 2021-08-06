@@ -1,0 +1,11 @@
+/**
+ * Implements hook_theme_suggestions_HOOK_alter for blocks.
+ */
+function county_theme_theme_suggestions_block_alter(&$suggestions, $variables) {
+
+  // Load theme suggestions for blocks from parent theme.
+  foreach ($suggestions as &$suggestion) {
+    $suggestion = str_replace('county_theme_', 'iastate_theme_', $suggestion);
+  }
+}
+
