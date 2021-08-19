@@ -7,6 +7,7 @@ dependencies:
     - system
   theme:
     - iastate_theme
+    - county_theme
 id: iastate_theme_account_menu
 theme: iastate_theme
 region: sidebar_first

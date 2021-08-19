@@ -3,6 +3,7 @@ status: true
 dependencies:
   theme:
     - iastate_theme
+    - county_theme
 id: iastate_theme_page_title
 theme: iastate_theme
 region: content

@@ -5,6 +5,7 @@ dependencies:
     - help
   theme:
     - iastate_theme
+    - county_theme
 id: iastate_theme_help
 theme: iastate_theme
 region: content

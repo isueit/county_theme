@@ -5,6 +5,7 @@ dependencies:
     - system
   theme:
     - iastate_theme
+    - county_theme
 id: iastate_theme_content
 theme: iastate_theme
 region: content

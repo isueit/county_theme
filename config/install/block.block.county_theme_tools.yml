@@ -8,6 +8,7 @@ dependencies:
     - system
   theme:
     - iastate_theme
+    - county_theme
 _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: iastate_theme_tools
